@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe R. Martinez</title>
+    <meta name="description"
+        content="Portfólio de Felipe R. Martinez, Estudante de ADS. Projetos, tecnologias, formação e contato.">
+    <meta name="color-scheme" content="light dark">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="logo" href="#topo">Felipe R. Martinez</a>
+
+            <nav class="nav" aria-label="Principal">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#sobre">Sobre</a></li>
+                    <li><a class="nav__link" href="#projetos">Projetos</a></li>
+                    <li><a class="nav__link" href="#tecnologias">Tecnologias</a></li>
+                    <li><a class="nav__link" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="conteudo">
+        <section class="hero" id="topo" aria-labelledby="hero-title">
+            <div class="container hero__grid">
+                <div class="hero__intro">
+                    <p class="hero__eyebrow">Estudante de Análise e Desenvolvimento de Sistemas</p>
+                    <h1 class="hero__title" id="hero-title">Felipe R. Martinez</h1>
+                    <p class="hero__role">
+                        Desenvolvedor Python focado(a) em backend, APIs e aplicações web.
+                    </p>
+                    <p class="hero__description">
+                        Estudante de Computação com foco em desenvolvimento back-end e web, interessado em construir
+                        aplicações eficientes, organizadas e escaláveis. Tenho conhecimentos em Python, Machine
+                        Learning, APIs e desenvolvimento de aplicações, que venho aprimorando por meio de estudos e
+                        projetos. Utilizo este portfólio para apresentar meus projetos e evolução como desenvolvedor.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a class="button button--primary" href="#projetos">Ver projetos</a>
+                        <a class="button button--secondary" href="https://github.com/martinez_felipe14" target="_blank"
+                            rel="me noopener noreferrer">
+                            GitHub<span class="visually-hidden"> de Felipe R. Martinez</span>
+                        </a>
+                    </div>
+                </div>
+                <dl class="hero__facts">
+                    <div class="fact">
+                        <dt class="fact__label">Foco</dt>
+                        <dd class="fact__value"> Backend e Fullstack</dd>
+                    </div>
+                    <div class="fact">
+                        <dt class="fact__label">Estudando agora</dt>
+                        <dd class="fact__value">Django</dd>
+                    </div>
+                    <div class="fact">
+                        <dt class="fact__label">Procurando</dt>
+                        <dd class="fact__value"> Estágio ou vaga júnior</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section" id="sobre" aria-labelledby="sobre-title">
+            <div class="container section__grid">
+                <header class="section__header">
+                    <p class="section__index" aria-hidden="true">01</p>
+                    <h2 class="section__title" id="sobre-title">Sobre</h2>
+                </header>
+
+                <div class="section__body about">
+                    <img class="about__photo" src="./images/foto_perfil.jpeg" alt="Foto de Felipe" width="320"
+                        height="320" loading="lazy" decoding="async">
+
+                    <div class="about__text">
+                        <p class="lead">
+                            Estudante de Análise e Desenvolvimento de Sistemas no IFSP, com foco
+                            em back-end e desenvolvimento web.
+                        </p>
+                        <p>
+                            Ao longo da minha formação, também desenvolvi projetos envolvendo análise de dados e Machine
+                            Learning, o que me proporcionou experiência com ferramentas como Pandas, Scikit-learn e
+                            XGBoost
+                        </p>
+                        <p>
+                            Atualmente, estou direcionando meus estudos para o desenvolvimento de software, com foco em
+                            Python, Django, APIs e fundamentos de engenharia de software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="projetos" aria-labelledby="projetos-title">
+            <div class="container section__grid">
+                <header class="section__header">
+                    <p class="section__index" aria-hidden="true">02</p>
+                    <h2 class="section__title" id="projetos-title">Projetos</h2>
+                </header>
+
+                <div class="section__body">
+
+                    <article class="project-featured" aria-labelledby="ParkinsonsDisease_Detector">
+                        <img class="project-featured__media" src="./images/projeto_principal.png"
+                            alt="Comparação entre dados reais e Previsão do Modelo" width="1200" height="750"
+                            loading="lazy" decoding="async">
+
+                        <div class="project-featured__content">
+                            <p class="project-featured__label">Projeto em destaque</p>
+                            <h3 class="project-featured__title" id="projeto-01-title">ML Parkinson</h3>
+                            <p class="project-featured__summary">
+                                Projeto de Machine Learning desenvolvido em Python para a classificação de dados
+                                biomédicos relacionados à doença de Parkinson, utilizando características extraídas de
+                                sinais de voz.
+                            </p>
+                            <ul class="stack" aria-label="Tecnologias utilizadas">
+                                <li>Python</li>
+                                <li>Scikit-Learn</li>
+                                <li>Pandas</li>
+                            </ul>
+
+                            <ul class="project-links">
+                                <li>
+                                    <a href="https://github.com/MartinezFelipe14/ParkinsonsDisease_Detector"
+                                        target="_blank" rel="me noopener noreferrer">
+                                        Código<span class="visually-hidden"> do Projeto</span>
+                                        <span aria-hidden="true">↗</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <h3 class="subheading">Outros projetos</h3>
+                    <ol class="project-list">
+                        <li class="project">
+                            <article class="project__inner" aria-labelledby="projeto-02-title">
+                                <div class="project__main">
+                                    <h4 class="project__title" id="projeto-02-title">Detector Fraude</h4>
+                                    <p>Modelo preditivo detecta fraude de cartão de crédito.</p>
+                                    <p class="project__goal"><strong>Objetivo:</strong> Detectar possíveis fraudes de
+                                        cartão de crédito com base no conjunto de dados de treinamento.</p>
+                                </div>
+                                <div class="project__meta">
+                                    <ul class="stack" aria-label="Tecnologias utilizadas">
+                                        <li>Scikit-Learn</li>
+                                        <li>XGBoost</li>
+                                        <li>SMOTE</li>
+                                    </ul>
+                                    <ul class="project-links">
+                                        <li>
+                                            <a href="https://github.com/MartinezFelipe14/Detector_Fraude"
+                                                target="_blank" rel="me noopener noreferrer">
+                                                Código<span class="visually-hidden"> do [PROJETO 02]</span>
+                                                <span aria-hidden="true">↗</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </li>
+                    </ol>
+
+                    <p class="more-link">
+                        <a href="https://github.com/MartinezFelipe14?tab=repositories" target="_blank"
+                            rel="me noopener noreferrer">Todos os repositórios no
+                            GitHub</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="tecnologias" aria-labelledby="tecnologias-title">
+            <div class="container section__grid">
+                <header class="section__header">
+                    <p class="section__index" aria-hidden="true">03</p>
+                    <h2 class="section__title" id="tecnologias-title">Tecnologias</h2>
+                </header>
+
+                <div class="section__body">
+                    <p class="section__intro">
+                        Ferramentas que já usei em projetos.
+                    </p>
+
+                    <div class="tech-groups">
+                        <div class="tech-group">
+                            <h3 class="tech-group__title">Linguagens</h3>
+                            <ul class="tech-group__list">
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>C</li>
+                            </ul>
+                        </div>
+                        <div class="tech-group">
+                            <h3 class="tech-group__title">Bibliotecas</h3>
+                            <ul class="tech-group__list">
+                                <li>Scikit-Learn</li>
+                                <li>Pandas</li>
+                                <li>XGBoost</li>
+                                <li>Django</li>
+                                <li>Tensorflow</li>
+                            </ul>
+                        </div>
+                        <div class="tech-group">
+                            <h3 class="tech-group__title">Ferramentas</h3>
+                            <ul class="tech-group__list">
+                                <li>Git</li>
+                                <li>GitHub</li>
+                                <li>Linux</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="formacao" aria-labelledby="formacao-title">
+            <div class="container section__grid">
+                <header class="section__header">
+                    <p class="section__index" aria-hidden="true">04</p>
+                    <h2 class="section__title" id="formacao-title">Formação</h2>
+                </header>
+
+                <div class="section__body">
+                    <ol class="timeline">
+                        <li class="timeline__item">
+                            <p class="timeline__period">2026 — Presente</p>
+                            <div>
+                                <h3 class="timeline__title">Tecnologia em Análise e Desenvolvimento de Sistemas</h3>
+                                <p class="timeline__place">Instituto Federal de Educação, Ciência e Tecnologia de São
+                                    Paulo</p>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <p class="timeline__period">2025</p>
+                            <div>
+                                <h3 class="timeline__title">Supervised Machine Learning:
+                                    Regression and Classification</h3>
+                                <p class="timeline__place">Stanford Online, DeepLearning.AI</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--contact" id="contato" aria-labelledby="contato-title">
+            <div class="container section__grid">
+                <header class="section__header">
+                    <p class="section__index" aria-hidden="true">05</p>
+                    <h2 class="section__title" id="contato-title">Contato</h2>
+                </header>
+
+                <div class="section__body">
+                    <p class="lead">
+                        Atualmente procurando uma oportunidade de estágio ou vaga júnior.
+                    </p>
+
+                    <a class="contact-email" href="mailto:martinez_felipe14@proton.me">martinez_felipe14@proton.me</a>
+
+                    <ul class="contact-links">
+                        <li>
+                            <span class="contact-links__label">GitHub</span>
+                            <a href="https://github.com/martinezfelipe14" target="_blank"
+                                rel="me noopener noreferrer">github.com/martinezfelipe14</a>
+                        </li>
+                        <li>
+                            <span class="contact-links__label">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/martinezfelipe14" target="_blank"
+                                rel="me noopener noreferrer">linkedin.com/in/martinezfelipe14</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>© 2026 Felipe R. Martinez</p>
+            <ul class="site-footer__links">
+                <li><a href="https://github.com/MartinezFelipe14" target="_blank"
+                        rel="me noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/martinezfelipe14" target="_blank"
+                        rel="me noopener noreferrer">LinkedIn</a></li>
+                <li><a href="#topo">Voltar ao topo</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
