@@ -7,6 +7,7 @@
     --color-border: #d6d2c7;
     --color-accent: #515de5;
     --color-accent-hover: #515de5;
+    --color-bar: #515de5;
     --color-on-accent: #ffffff;
 
     --font-display: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -332,7 +333,7 @@ a:hover {
     display: grid;
     gap: var(--space-sm);
     padding-top: var(--space-md);
-    border-top: 2px solid var(--color-text);
+    border-top: 2px solid var(--color-bar);
 }
 
 .fact__label {
@@ -612,7 +613,7 @@ a:hover {
 
 .tech-group {
     padding-top: var(--space-sm);
-    border-top: 2px solid var(--color-text);
+    border-top: 2px solid var(--color-bar);
 }
 
 .tech-group__title {
